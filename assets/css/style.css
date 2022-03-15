@@ -24,7 +24,8 @@
 
 /* #region site-header */
 
-#site-header {
+#site-header,
+.copyright {
     background-color: var(--dark);
 }
 
