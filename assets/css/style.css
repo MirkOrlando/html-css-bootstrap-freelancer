@@ -32,15 +32,35 @@
 
 /* #region site-main */
 
-.jumbotron {
+.jumbotron,
+.about {
     background-color: var(--success);
 }
+
+.ms-container-sm {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
 
 /* #endregion site-main */
 
 /* #region site-footer */
 
 /* #endregion site-footer */
+
+/* #region media query mobile-l */
+
+@media screen and (min-width: 425px) {
+
+    .ms-container-sm {
+        max-width: 425px;
+        margin: 0 auto;
+    }
+    
+}
+
+/* #endregion media query mobile-l */
 
 /* #region media query sm */
 
@@ -56,5 +76,20 @@
 /* #endregion media query sm */
 
 /* #region media quesry md */
+
+@media screen and (min-width: 768px) {
+
+    .ms-container {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .ms-container-sm {
+        max-width: 650px;
+        margin: 0 auto;
+    }    
+    
+}
+
 
 /* #endregion media quesry md */
