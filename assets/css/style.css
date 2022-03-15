@@ -16,6 +16,7 @@
 
 :root {
     --dark: #2C3E50;
+    --paledark: #3A546D;
     --success: #1ABC9C;
 }
 
@@ -34,6 +35,10 @@
 .jumbotron,
 .about {
     background-color: var(--success);
+}
+
+.location {
+    background-color: var(--paledark);
 }
 
 .ms-container-sm {
