@@ -1,0 +1,8 @@
+/* #region debug */
+
+.debug [class^="col"] {
+    min-height: 300px;
+    background-color: lightslategray;
+}
+
+/* #endregion debug */
