@@ -1,8 +1,23 @@
 /* #region debug */
 
 .debug [class^="col"] {
-    min-height: 300px;
-    background-color: lightslategray;
+    min-height: 200px;
+    background-color: lightsalmon;
+    border: 1px solid black;
 }
 
 /* #endregion debug */
+
+/* #region common */
+
+:root {
+    --dark: #2C3E50;
+}
+
+/* #endregion common */
+
+/* #region site-header */
+
+#site-header {
+    background-color: var(--dark);
+}
