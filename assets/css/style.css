@@ -6,12 +6,18 @@
     border: 1px solid black;
 }
 
+.debug .jumbotron [class^="col"] {
+    min-height: 80px;
+}
+
 /* #endregion debug */
 
 /* #region common */
 
 :root {
     --dark: #2C3E50;
+    --success: #1ABC9C;
+
 }
 
 /* #endregion common */
@@ -21,3 +27,34 @@
 #site-header {
     background-color: var(--dark);
 }
+
+/* #endregion site-header */
+
+/* #region site-main */
+
+.jumbotron {
+    background-color: var(--success);
+}
+
+/* #endregion site-main */
+
+/* #region site-footer */
+
+/* #endregion site-footer */
+
+/* #region media query sm */
+
+@media screen and (min-width: 576px) {
+
+    .ms-container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+}
+
+/* #endregion media query sm */
+
+/* #region media quesry md */
+
+/* #endregion media quesry md */
