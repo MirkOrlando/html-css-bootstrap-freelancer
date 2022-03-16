@@ -20,6 +20,10 @@
     --success: #1ABC9C;
 }
 
+.free-bg-dark {
+    background-color: var(--dark);
+}
+
 /* #endregion common */
 
 /* #region site-header */
