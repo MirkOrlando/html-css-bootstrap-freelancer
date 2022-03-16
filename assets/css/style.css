@@ -60,21 +60,18 @@ img {
     max-width: 200px;
 }
 
+.free-w-250 {
+    width: 250px;
+}
+
 .free-square-icon {
     height: 46px;
     width: 46px;
 }
 
+.line {
+    height: 4px;
+    width: 100px;
+}
+
 /* #endregion utility */
-
-/* #region site-header */
-
-/* #endregion site-header */
-
-/* #region site-main */
-
-/* #endregion site-main */
-
-/* #region site-footer */
-
-/* #endregion site-footer */
