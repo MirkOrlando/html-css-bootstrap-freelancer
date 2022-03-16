@@ -20,6 +20,14 @@
     --success: #1ABC9C;
 }
 
+/* #endregion common */
+
+/* #region utility */
+
+img {
+    max-width: 100%;
+}
+
 .free-bg-dark {
     background-color: var(--dark);
 }
@@ -32,7 +40,7 @@
     max-width: 200px;
 }
 
-/* #endregion common */
+/* #endregion utility */
 
 /* #region site-header */
 
