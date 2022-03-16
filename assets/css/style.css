@@ -18,6 +18,7 @@
     --dark: #2C3E50;
     --paledark: #3A546D;
     --success: #1ABC9C;
+    --lighter: white;
 }
 
 body {
@@ -69,9 +70,44 @@ img {
     width: 46px;
 }
 
-.line {
+.separator::before {
+    content: "";
+    display: inline-block;
     height: 4px;
     width: 100px;
+    line-height: 100%;
+    vertical-align: middle;
+    background-color: var(--lighter);
+}
+
+.separator::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    line-height: 100%;
+    vertical-align: middle;
+    background-color: var(--lighter);
+}
+
+.separator-dark::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    line-height: 100%;
+    vertical-align: middle;
+    background-color: var(--dark);
+}
+
+.separator-dark::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    line-height: 100%;
+    vertical-align: middle;
+    background-color: var(--dark);
 }
 
 /* #endregion utility */
