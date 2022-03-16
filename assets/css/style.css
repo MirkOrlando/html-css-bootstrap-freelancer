@@ -24,6 +24,14 @@
     background-color: var(--dark);
 }
 
+.free-bg-success {
+    background-color: var(--success);
+}
+
+.free-mw-200 {
+    max-width: 200px;
+}
+
 /* #endregion common */
 
 /* #region site-header */
