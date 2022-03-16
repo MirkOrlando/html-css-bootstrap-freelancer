@@ -44,6 +44,10 @@ img {
     background-color: var(--success);
 }
 
+.free-success {
+    color: var(--success);
+}
+
 .free-b-color-success {
     border-color: var(--success);
 }
@@ -54,6 +58,11 @@ img {
 
 .free-mw-200 {
     max-width: 200px;
+}
+
+.free-square-icon {
+    height: 46px;
+    width: 46px;
 }
 
 /* #endregion utility */
