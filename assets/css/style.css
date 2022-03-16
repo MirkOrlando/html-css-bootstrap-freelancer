@@ -20,13 +20,13 @@
     --success: #1ABC9C;
 }
 
-/* #endregion common */
-
-/* #region utility */
-
 img {
     max-width: 100%;
 }
+
+/* #endregion common */
+
+/* #region utility */
 
 .free-bg-dark {
     background-color: var(--dark);
@@ -40,6 +40,10 @@ img {
     background-color: var(--success);
 }
 
+.free-bg-paledark {
+    background-color: var(--paledark);
+}
+
 .free-mw-200 {
     max-width: 200px;
 }
@@ -48,29 +52,9 @@ img {
 
 /* #region site-header */
 
-#site-header,
-.copyright {
-    background-color: var(--dark);
-}
-
 /* #endregion site-header */
 
 /* #region site-main */
-
-.jumbotron,
-.about {
-    background-color: var(--success);
-}
-
-.location {
-    background-color: var(--paledark);
-}
-
-.ms-container-sm {
-    max-width: 320px;
-    margin: 0 auto;
-}
-
 
 /* #endregion site-main */
 
